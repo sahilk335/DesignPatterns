@@ -14,12 +14,12 @@ Client : Uses only interfaces declared by AbstractFactory and AbstractProduct cl
 
 
 ```
-Client software creates a concrete implementation of the abstract factory and then uses the generic interfaces to create the concrete objects that are part of the family of objects.
+Client software creates a concrete implementation of the abstract factory and then uses the generic interfaces to create the concrete +objects that are part of the family of objects.
 The client does not know or care which concrete objects it gets from each of these concrete factories since it uses only the generic interfaces of their products.
 
 So with this idea of Abstract Factory pattern, we will now try to create a design that will facilitate the creation of related objects.
 ```
-
+![abstract-factory-pattern](https://user-images.githubusercontent.com/21277982/41678990-60abae2e-74ea-11e8-8330-11964eb0efa5.png)
 
 ```
 Implementation
