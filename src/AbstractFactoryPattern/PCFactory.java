@@ -19,6 +19,6 @@ public class PCFactory implements ComputerAbstractFactory{
     //Concrete Factory has a product PC, so it returns  PC
     @Override
     public Computer createComputer() {
-        return null;
+        return new PC(ram,hdd,cpu);
     }
 }
